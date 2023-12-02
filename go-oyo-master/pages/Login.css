@@ -1,0 +1,240 @@
+.bogbig {
+    background-image: url('../images/background\ \(1\).avif'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    max-width: 100%;
+    height:650px;
+    
+}
+
+  .fa-fa-tag{
+    max-width: 300px;
+    background-color: brown;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ::selection {
+    background: #fa4299;
+    color: #fff;
+  }
+  
+  .login-wrapper {
+
+    margin-left: 67%;
+    overflow: hidden;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .login-title-text {
+    display: flex;
+    width: 200%;
+    
+  
+  }
+  
+  .login-title,
+  .signup-title {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .slide-controls-wrapper {
+   
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0 10px 0;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+  }
+  
+  .slide-label {
+   
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+  
+  .signup-label {
+    color: #000;
+  }
+  
+  .slider-tab-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    z-index: 0;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .input-hidden {
+    display: none;
+  }
+  
+  #login:checked ~ .slider-tab-wrapper {
+    left: 0;
+  }
+  
+  #login:checked ~ .signup-label {
+    color: #000;
+    cursor: default;
+    user-select: none;
+  }
+  
+  #signup:checked ~ .signup-label {
+    color: #fff;
+    cursor: default;
+    user-select: none;
+  }
+  
+  .form-container-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .form-inner-wrapper {
+    display: flex;
+    width: 200%;
+  }
+  
+  .login-form,
+  .signup-form {
+    width: 50%;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .input-field {
+    margin-left: -15px;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .input-field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+  
+  .input-field input:focus {
+    border-color: #fc83bb;
+  }
+  
+  .input-field input::placeholder {
+    color: #999;
+  }
+  
+  .input-field input:focus::placeholder {
+    color: #b3b3b3;
+  }
+  
+  .pass-link {
+    margin-top: 5px;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .link a {
+    color: #fa4299;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-wrapper {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn-layer-wrapper {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
+    border-radius: 5px;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-wrapper:hover .btn-layer-wrapper {
+    left: 0;
+  }
+  
+  .btn-input {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .loglogo{
+    max-width: 140px;
+    max-height: 140px;
+   
+  }
+  .police{
+    z-index: 9999;
+    margin-top: -33%;
+  }
+  #lola{
+    margin-left: 11%;
+    margin-top: -5.5%;
+    color: #ffffff;
+  }
+  #yoyo{
+    color: white;
+    font-size: 45px;
+    margin-left: 11%;
+    margin-top: 5.5%;
+  }
+  #lolo{
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-left: 11%;
+    margin-top: 5.5%;
+  }

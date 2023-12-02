@@ -1,0 +1,47 @@
+
+.AppBar {
+    background-color: #2196F3;
+    z-index: 9999;
+    position: fixed;
+  }
+ 
+
+
+  .Toolbar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+  }
+  
+  /* Language Select Styles */
+  .Select {
+    color: black;
+    width: 150px;
+    margin-right: 20px;
+    z-index: 9999;
+  }
+  
+  /* Guest Select Styles */
+  .Select {
+    width: 120px;
+    margin-right: 20px;
+  }
+  
+  /* Cost Input Styles */
+  .MuiTextField-root {
+    width: 80px;
+    margin-right: 20px;
+    z-index: 9999;
+    margin: 20px;
+  }
+  
+  /* Location Button Styles */
+  .Button {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    z-index: 9999;
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  

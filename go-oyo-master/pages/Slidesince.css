@@ -1,0 +1,36 @@
+
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: url('https://wallpaperaccess.com/full/6688154.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #jc{
+    color: red;
+    font-size: 50px;
+  }
+.text-container {
+    margin-left: 30px;
+    opacity: 1; /* Set opacity to 1 initially to make text visible */
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+  }
+  
+  .slide-in {
+    transform: translateX(0);
+  }
+  #sux{
+    font-size: 30px;
+    color: white;
+  }
+  #suxx{
+    color: rgb(2, 255, 255);
+    font-size: 20px;
+  }
+  

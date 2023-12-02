@@ -1,0 +1,124 @@
+.tyu{
+    max-width: 100%;
+    max-height: 590px;
+}
+.uae{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10%;
+    margin-left: -40%;
+    z-index: 2;
+}
+.nepal{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15%;
+    margin-left: -0%;
+    z-index: 2;
+}
+.chaina{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 18%;
+    margin-left: 5%;
+    z-index: 2;
+}
+.india{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1%;
+    margin-left: -25%;
+    z-index: 2;
+}
+.Malaysia{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    z-index: 2;
+}
+.indo{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: -10%;
+    z-index: 2;
+}
+#uis{
+    margin-top: -25%;
+    margin-left: 50%;
+}
+#uiooo{
+    margin-left: 50%;
+}
+#loda{
+    margin-left: 50%;
+    font-size: 30px;
+}
+#io{
+    font-size: 50px;
+}
+.qwe{
+    margin-left: 50%;
+}
+#ll{
+    margin-top: -22px;
+}
+#hol{
+    margin-top: -35px;
+    margin-left:100px;
+}
+#ind{
+    margin-left: 50%;
+    margin-top: -20px;
+    #point{
+        margin: 8px;
+        font-size: 70px;
+        color: rgb(8, 0, 255);
+    }
+}
+#nap{
+    margin-left: 50%;
+    margin-top: -20px;
+    #point1{
+        margin: 8px;
+        font-size: 70px;
+        color: rgb(55, 255, 0);
+    }
+}
+#cha{
+    margin-left: 65%;
+    margin-top: -11.9%;
+    #point2{
+        margin: 8px;
+        font-size: 70px;
+        color: rgb(255, 47, 0);
+    }
+}
+#male{
+    margin-left: 80%;
+    margin-top: -6.8%;
+    #point3{
+        margin: 8px;
+        font-size: 70px;
+        color: rgb(255, 0, 136);
+    }
+}
+#indon{
+    margin-left: 65%;
+    margin-top: -15px;
+    #point4{
+        margin: 8px;
+        font-size: 70px;
+        color: rgb(0, 255, 234);
+    }
+}
+#dubai{
+    margin-left: 80%;
+    margin-top: -100px;
+    #point5{
+        margin: 8px;
+        font-size: 70px;
+        color: rgb(0, 255, 234);
+    }
+}

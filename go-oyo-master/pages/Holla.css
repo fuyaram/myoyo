@@ -1,0 +1,134 @@
+.product-card {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .odf{
+    width: 150px;
+    height: 150px;
+  }
+  .left-column {
+    flex: 1;
+    position: relative;
+  }
+  
+  .image-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  .image-slider img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .image-slider img:hover {
+    transform: scale(1.1); /* Scale the image by 10% on hover */
+  }
+  
+  
+  .suggestions {
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .suggestions h3 {
+    margin-bottom: 10px;
+  }
+  
+  .suggestions img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .features h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 5px;
+  }
+  
+  .ratings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .star-icon {
+    color: #f1c40f;
+    margin-right: 5px;
+  }
+  
+  .additional-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-icon {
+    color: #3498db;
+    margin-right: 5px;
+  }
+  
+  .prices p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .book-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #2980b9;
+  }
+  .book-button2{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 60px;
+    transition: background-color 0.3s ease;
+  }
+  .book-button2:hover{
+    background-color: #2980b9;
+  }

@@ -1,0 +1,52 @@
+.container9000 {
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d23636;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .add-button{
+    margin-top: -20px;
+  }
+  .add-button,
+  .show-button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover,
+  .show-button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-value {
+    border: 2px solid rgb(120, 96, 96);
+    margin-right: -10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-money-bar {
+    height: 20px;
+    background-color: #4caf50;
+    margin-bottom: 20px;
+  }
+  

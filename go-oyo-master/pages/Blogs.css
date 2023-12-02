@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .blog-container {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .blog-title {
+    font-size: 24px;
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .blog-content {
+    font-size: 16px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .jsdf{
+    align-items: center;
+    width: 250px;
+    height: 100px;
+  }
+  .blog-content.expanded {
+    height: auto;
+    overflow: visible;
+  }
+  .jsdfdf{
+    width: auto;
+    height: auto;
+  }
+  .read-more-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

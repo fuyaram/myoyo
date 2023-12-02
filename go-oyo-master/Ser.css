@@ -1,0 +1,69 @@
+/* App.css */
+
+.container {
+    background-color: rgb(162, 151, 151);
+    border-radius: 10px;
+    width: 825px;
+    height: 50px;
+    margin-left: 22.2%;
+    margin-top: -30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  
+  .input-group {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 2; /* Set z-index higher than the video to place it above the video */
+  }
+  
+  
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    height: 15px; /* Increase the height of the input */
+    width: 200px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: -px;
+  }
+  
+  .input {
+    color: #007bff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    margin-top: 5px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  

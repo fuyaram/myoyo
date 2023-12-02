@@ -1,0 +1,37 @@
+.border-box {
+    width: 350px;
+    height: 70px;
+    border: 1px solid #e9e5e5;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+  }
+  .box-icon{
+  font-size: 20px;
+  }
+  .box-icon,
+  .box-name,
+  .box-title {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .box-name {
+     /* Name background color */
+    color: rgb(0, 0, 0);
+  }
+  
+  .box-title {
+    /* Title background color */
+    color: rgb(0, 0, 0);
+  }
+  
+  .box-name,
+  .box-title {
+    flex: 1; /* Make name and title flex items to fill remaining space */
+  }
+  
